@@ -1,0 +1,1 @@
+// routes/authRoutes.js\nconst express = require('express');\nconst router = express.Router();\nconst auth = require('../controllers/authController');\nrouter.post('/register', auth.register);\nrouter.post('/login', auth.login);\nmodule.exports = router;
