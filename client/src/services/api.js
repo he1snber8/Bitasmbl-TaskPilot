@@ -1,0 +1,1 @@
+// client/src/services/api.js\nimport axios from 'axios';\nconst api = axios.create({ baseURL: 'http://localhost:3000/api' });\nexport default api;
