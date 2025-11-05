@@ -1,0 +1,1 @@
+// models/Task.js\nconst mongoose = require('mongoose');\nconst TaskSchema = new mongoose.Schema({title:String,priority:Number,project:String,user:{type:mongoose.Schema.Types.ObjectId,ref:'User'}});\nmodule.exports = mongoose.model('Task', TaskSchema);
