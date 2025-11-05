@@ -1,0 +1,1 @@
+// middleware/authMiddleware.js\nconst jwt = require('jsonwebtoken');\nmodule.exports = (req,res,next) => {/*verify JWT from headers*/};
