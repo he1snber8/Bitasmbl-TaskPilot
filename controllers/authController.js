@@ -1,0 +1,1 @@
+// controllers/authController.js\nconst User = require('../models/User');\nconst jwt = require('jsonwebtoken');\nexports.register = (req,res) => {/*create user & return token*/};\nexports.login = (req,res) => {/*validate user & sign JWT*/};
