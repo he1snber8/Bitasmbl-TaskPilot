@@ -1,0 +1,1 @@
+// client/src/App.js\nimport React from 'react';\nimport Login from './components/Login';\nimport TaskList from './components/TaskList';\nconst App = () => (<div>{/* Add routing between Login and TaskList */}</div>);\nexport default App;
