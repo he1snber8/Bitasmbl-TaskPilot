@@ -1,0 +1,1 @@
+{\n  \"name\": \"task-manager\",\n  \"version\": \"1.0.0\",\n  \"main\": \"server.js\",\n  \"scripts\": {"start": "node server.js"},\n  \"dependencies\": {"express": "^4.17.1", "jsonwebtoken": "^8.5.1", "mongoose": "^6.0.0", "dotenv": "^10.0.0"}\n}
