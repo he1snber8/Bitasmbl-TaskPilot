@@ -1,0 +1,1 @@
+// client/src/components/Login.js\nimport React, {useState} from 'react';\nimport api from '../services/api';\nconst Login = () => {/* implement form & call api.post('/auth/login') */};\nexport default Login;
